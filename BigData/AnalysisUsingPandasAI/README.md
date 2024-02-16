@@ -1,3 +1,4 @@
 # Analysis Using PandasAI 
 
-TDB
+## Install PandasAI
+![img.png](img.png)
