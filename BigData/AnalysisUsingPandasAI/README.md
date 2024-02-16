@@ -38,6 +38,30 @@ To start conversation with PandasAI, OpenAI API_TOKEN will be required. Use the 
 
 ![img_5.png](img_5.png)
 
+4. Basic cleaning was performed on the downloaded data set including following:
+- Handling missing values 
+- Imputation of NaN data
+- Handling of JSON elements into list for different columns with JSON Data
+
+![img_6.png](img_6.png)
+
+## Chat Using PandasAI API
+```
+from pandasai import SmartDataframe
+from pandasai.llm import OpenAI
+llm = OpenAI(api_token="<YOUR TOKEN GENERATED>")  # Get API token from https://platform.openai.com/account/api-keys
+df = SmartDataframe(df_movies, config={"llm": llm})
+```
+
+### Ask Data Insight Question
+
+```
+df.chat('what is the title of the most popular movie?')
+```
+
+Sample output
+
+![img_7.png](img_7.png)
 
 
 
