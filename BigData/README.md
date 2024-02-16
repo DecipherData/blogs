@@ -3,4 +3,4 @@
 ## Topics
 
 
-### [Analysis using PandasAI](http://https://github.com/DecipherData/blogs/BigData/AnalysisUsingPandasAI/)
+### [Analysis using PandasAI](https://github.com/DecipherData/blogs/tree/main/BigData/AnalysisUsingPandasAI/)
