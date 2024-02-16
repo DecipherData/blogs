@@ -3,7 +3,7 @@
 
 ## COURSES
 
-| Course       | Code     |
-|--------------|----------|
-| [BIG DATA](https://github.com/DecipherData/blogs/tree/main/BigData) | DATA 223 |
-|              |
+| Course                                                              | Code                                                 |
+|---------------------------------------------------------------------|------------------------------------------------------|
+| [BIG DATA](https://github.com/DecipherData/blogs/tree/main/BigData) | DATA 228                                             |
+|                                                                     |
